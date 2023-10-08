@@ -86,3 +86,5 @@ import os
 os.system("tshark -r exfil.pcap -Y 'ip.src==172.21.241.216' -T fields -e 'dns.qry.name' > dns_query.txt")
 ```
 così da non dover faticare troppo =)
+<!-->
+Questo è lo script completo ![script](./base32decrypt.py)
