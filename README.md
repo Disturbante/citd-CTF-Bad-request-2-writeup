@@ -6,7 +6,7 @@ Questo è quello che abbiamo davanti:
 nel pcap è presente solo traffico DNS con pacchetti anomali.
 Ad occhio è però ovvio che si tratta di esfiltrazione DNS, in cui si esfiltrano dati dalla macchina vittima
 attraverso query DNS verso server malevoli (anche se in questo caso le query sono verso il DNS di cloudflare 1.1.1.1 e secondario 1.0.0.1), maggiori info qui:
-<!-- >
+<!-->
 https://helgeklein.com/blog/dns-exfiltration-tunneling-how-it-works-dnsteal-demo-setup/
 <!-->
 per estrarre i dati infatti ci basterà eseguire questo comando tshark per selezionare i dati che vogliamo:
